@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+ 
+<body> 
+ <input id="tap">
+ <input type="button" onclick="fun_break()" value="break statement"> 
+ <br />
+ <input type="button" onclick="fun_breaklabel()" value="break with label"> 
+ 
+ <script> 
+  function fun_break() 
+  { 
+ 
+   for (i = 0; i < 10; i++) 
+   { 
+    document.getElementById("tap").value === 1; 
+   } 
+ 
+  } 
+ 
+  function fun_breaklabel() 
+  { 
+ 
+   block1: 
+   { 
+    block2: 
+    { 
+     document.getElementById("tap").value = 1; 
+     document.getElementById("tap").value = 1;
+    } 
+    alert(3); //Skip 
+   } 
+ 
+  } 
+ </script> 
+ 
+</body> 
+ 
+</html>

@@ -1,0 +1,41 @@
+<p> sharply </p>
+
+
+<script>
+const userData = {
+  username: "John", 
+  userID: 2425467,
+  userEmail: "john@gmail.com", 
+  userPassword: "john1335", 
+  userType: "Regular",
+  userType2: "Regular",
+  NewUserType: function(newtype) {
+     this.userType2 = newtype;
+     return "update successful";
+  }
+};
+console.log(delete userData.userType);
+console.log(userData);
+console.log(userData.NewUserType("Premium"));
+console.log(userData.userType2)
+
+var greetings = "welcome"
+for (var i = 0; i < 3; i++) {
+  alert(greetings + " " + userData.username)
+}
+
+var grade = "B";
+switch (grade) {
+  case "A":
+    alert("Excellent");
+    break;
+  case "B": 
+    alert("Good");
+    break;
+  default:
+     alert ("Credit")
+}
+
+
+
+</script>

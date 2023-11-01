@@ -1,0 +1,24 @@
+
+<p> webzy </p>
+
+<script> 
+
+function sendpostcards(amount) {
+    console.log("postcard "+ amount + " sent");
+    
+    if (amount === 1) {
+      console.log("all postcard sent");
+      return amount;
+    }
+    else{
+       let amountremaining = amount - 1;
+       
+       console.log("calling function again. ");
+       
+       return sendpostcards(amountremaining);
+    }
+  }
+  
+  sendpostcards(3)
+
+</script>

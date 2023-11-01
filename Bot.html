@@ -1,0 +1,21 @@
+
+<p> raybot your trusted robot assistant for answering complex questions </p>
+
+<script>
+
+function passwords(amount) {
+    let password = window.prompt("password")
+    if (password === "access") {
+      alert("succes");
+      return amount === 1;
+    }
+    else{
+       let amountremaining = amount + 1;
+       
+       return passwords(amountremaining);
+    }
+   }
+  
+  passwords(3)
+
+</script>

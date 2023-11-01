@@ -1,0 +1,22 @@
+
+<p>  well let try do this </p>
+
+<script> 
+
+function password(times) {
+   let net = window.prompt("password");
+  
+  if (net === "boys") {
+    alert("success");
+    return times === 1;
+  }
+  else {
+    let timeremaining = times - 1;
+    
+    return password(timeremaining);
+  }
+}
+
+password(1000);
+
+</script>

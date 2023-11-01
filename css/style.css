@@ -1,0 +1,289 @@
+/* Add all your styles here */
+body {
+  background-color:whitesmoke;
+  font-style:oblique;
+}
+
+section {
+  background-color:blue;
+  padding-top: 8px;
+  height: 60px;
+}
+
+.fit {
+  color: white;
+  padding: 8px;
+  font-size:20px;
+  float:left;
+}
+
+.bet {
+  padding:8px;
+  width: 200px;
+}
+
+.a {
+  float: right;
+  padding: 8px;
+  margin-top: 11px;
+  font-size:15px;
+  background-color: blue;
+}
+
+.b {
+  padding: 1px;
+  background-color: grey;
+  border: 1px solid;
+  color: red;
+}
+
+.c {
+  padding: 1px;
+  background-color: grey;
+  border: 1px solid;
+  color: red;
+}
+
+.r {
+  margin: 30px;
+  padding: 15px;
+}
+
+.dry {
+  width: 250px;
+  border: 8px solid;
+  box-shadow: 6px 6px 13px black;
+  padding: 15px;
+  height: 425px;
+  border-radius: 10%;
+  background-color: yellow;
+}
+
+.j {
+  width: 200px;
+  padding:8px;
+  border: 5px inset;
+  border-radius: 15%;
+  font-size: 36px;
+  text-align: right;
+  box-shadow: 6px 6px 13px inset white, 
+  6px 6px 13px inset black;
+}
+
+.ric {
+  padding: 8px;
+  width: 210px;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.cot {
+  width: 40px;
+  height: 40px;
+  box-shadow: 6px 6px 13px black, 
+  6px 6px 6px inset grey;
+  margin: 1px;
+  border: 2px solid;
+  color: black;
+  border-radius: 50%;
+}
+
+.xd {
+  width: 80px;
+  height: 40px;
+  box-shadow: 6px 6px 13px black,
+  6px 6px 6px inset grey;
+  margin: 3px;
+  border: 2px solid;
+  color: black;
+  border-radius : 30%
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "sci";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+ -webkit-transform: translateX(20px);
+ -ms-transform: translateX(20px);
+ transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switchy {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 28px;
+}
+
+.switchy input {display:none;}
+
+.slidery {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slidery:before {
+  position: absolute;
+  content: "inv";
+  height: 22px;
+  width: 28px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slidery {
+  background-color: #2196F3;
+}
+
+input:focus + .slidery {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slidery:before {
+ -webkit-transform: translateX(20px);
+ -ms-transform: translateX(20px);
+ transform: translateX(20px);
+}
+
+.slidery.roundy {
+  border-radius: 34px;
+}
+
+.slidery.roundy:before {
+  border-radius: 50%;
+}
+
+.switchi {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 28px;
+}
+
+.switchi input {display:none;}
+
+.slideri {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slideri:before {
+  position: absolute;
+  content: "deg";
+  height: 22px;
+  width: 28px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slideri {
+  background-color: #2196F3;
+}
+
+input:focus + .slideri {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slideri:before {
+ -webkit-transform: translateX(20px);
+ -ms-transform: translateX(20px);
+ transform: translateX(20px);
+}
+
+.slideri.roundi {
+  border-radius: 34px;
+}
+
+.slideri.roundi:before {
+  border-radius: 50%;
+}
+
+
+.si {
+   height: 0%;
+   width: 200px;
+   position: absolute;  
+   overflow-y: hidden;
+   transition: 0.5s;
+}
+
+.sci {
+  width: 40px;
+  height: 40px;
+  box-shadow: 6px 6px 13px black, 
+  6px 6px 6px inset grey;
+  margin: 1px;
+  border: 2px solid;
+  color: black;
+  border-radius: 50%;
+}
+
+
+
+
